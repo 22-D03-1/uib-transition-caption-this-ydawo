@@ -26,7 +26,7 @@ section {
 
 img {
   width: 100%;
-  transition-duration: 2s;
+  transition-duration: 1.7s;
 }
 
 section:hover img {
@@ -45,13 +45,12 @@ section:hover img {
   background-color: black;
   opacity: 0;
   transition-duration: 2s;
+  flex-direction: column;
 }
 
 h1 {
-  position: absolute;
   font-size: 30px;
   text-align: center;
-  top: 130px;
 }
 
 p {
